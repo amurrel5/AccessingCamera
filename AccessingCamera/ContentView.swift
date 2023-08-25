@@ -19,7 +19,7 @@ struct ContentView: View {
                 .resizable()
                 .frame (width: 300, height:300)
             
-            Button("Select a Photo") {
+            Button("Select a Photo!") {
         self.sourceType = .photoLibrary
             isImagePickerShowing = true
         }
